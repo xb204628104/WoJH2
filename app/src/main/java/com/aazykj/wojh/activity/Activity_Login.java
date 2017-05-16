@@ -55,18 +55,20 @@ public class Activity_Login extends Activity {
                     W.t("手机号不能为空");
                     return;
                 }
-                if (W.isPhoneNO(unm)){
+                if (!W.isPhoneNO(unm)){
                     W.t("请输入正确的手机号");
                     return;
                 }
-                if (!TextUtils.isEmpty(pwd)){
-                    W.t("手机号不能为空");
+                if (TextUtils.isEmpty(pwd)){
+                    W.t("密码不能为空");
                     return;
                 }
-                if (!W.rexCheckPassword(pwd)){
+                /*if (!W.rexCheckPassword(pwd)){
                     W.t("请输入正确的密码");
                     return;
-                }
+                }*/
+                Intent intent1=new Intent(Activity_Login.this,Activity_Main.class);
+                startActivity(intent1);
                 break;
             case R.id.tv_login_forget:
                 break;

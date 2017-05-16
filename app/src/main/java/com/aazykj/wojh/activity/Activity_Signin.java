@@ -62,6 +62,7 @@ public class Activity_Signin extends Activity {
                     W.t("请输入正确的手机号");
                     return;
                 }
+
                 CountDownTimerUtils countDownTimerUtils = new CountDownTimerUtils(btSigninYanzma, 60000, 1000);
                 countDownTimerUtils.start();
                 break;
