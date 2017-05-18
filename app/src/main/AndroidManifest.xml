@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aazykj.wojh">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -16,7 +17,7 @@
         </activity>
         <activity android:name=".activity.Activity_Signin"></activity>
         <activity android:name=".activity.Activity_Main"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
 
     </application>
 

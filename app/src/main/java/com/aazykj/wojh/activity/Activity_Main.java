@@ -16,6 +16,7 @@ import com.aazykj.wojh.R;
 import com.aazykj.wojh.adapter.MyAdapter;
 import com.aazykj.wojh.adapter.Myadapter1;
 import com.aazykj.wojh.fragment.MyFaBuFragment;
+import com.aazykj.wojh.fragment.MyFragment;
 import com.aazykj.wojh.fragment.MyShouYeFragment;
 import com.aazykj.wojh.fragment.MyTongXuniFragment;
 import com.aazykj.wojh.fragment.MyXiaoXiFragment;
@@ -78,6 +79,7 @@ public class Activity_Main extends FragmentActivity {
         list.add(new MyXiaoXiFragment());
         list.add(new MyFaBuFragment());
         list.add(new MyTongXuniFragment());
+        list.add(new MyFragment());
         MyAdapter myAdapter = new MyAdapter(getSupportFragmentManager(),list);
         vp.setAdapter(myAdapter);
         vp.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {

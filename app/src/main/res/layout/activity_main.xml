@@ -49,6 +49,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <com.youth.banner.Banner
+            android:id="@+id/banner_ba"
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:background="@mipmap/homeguanggao">
