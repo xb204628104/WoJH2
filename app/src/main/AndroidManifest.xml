@@ -15,7 +15,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.Activity_Signin"></activity>
-        <activity android:name=".activity.Activity_Main"></activity>
+        <activity android:name=".activity.Activity_Main"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden"></activity>
 
     </application>
 

@@ -2,6 +2,7 @@ package com.aazykj.wojh.activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import com.aazykj.wojh.R;
 import com.aazykj.wojh.utils.W;
+import com.jaeger.library.StatusBarUtil;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -39,6 +41,12 @@ public class Activity_Login extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        //设置颜色
+        StatusBarUtil.setColor(Activity_Login.this, Color.BLUE );
+        //设置透明度，0- 255
+        StatusBarUtil.setTranslucent( Activity_Login.this , 127 ) ;
+        //设置全屏
+        StatusBarUtil.setTransparent(Activity_Login.this ) ;
     }
 
     @OnClick({R.id.tv_login_zhuce, R.id.bt_login_ok, R.id.tv_login_forget})
