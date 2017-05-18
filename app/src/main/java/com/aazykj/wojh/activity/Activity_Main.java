@@ -74,6 +74,16 @@ public class Activity_Main extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainone);
         ButterKnife.bind(this);
+        tvOneShouye.setTextColor(Color.parseColor("#1BA9D2"));
+        ivOneShouye.setImageResource(R.mipmap.shouye_lan);
+        tvOneFabu.setTextColor(Color.GRAY);
+        ivOneFabu.setImageResource(R.mipmap.fabu);
+        tvOneGeren.setTextColor(Color.GRAY);
+        ivOneGeren.setImageResource(R.mipmap.gerenzhongxin);
+        tvOneXiaoxi.setTextColor(Color.GRAY);
+        ivOneXiaoxi.setImageResource(R.mipmap.xiaoxi);
+        tvOneHaoyou.setTextColor(Color.GRAY);
+        ivOneHaoyou.setImageResource(R.mipmap.haoyou);
         list = new ArrayList<Fragment>();
         list.add(new MyShouYeFragment());
         list.add(new MyXiaoXiFragment());
