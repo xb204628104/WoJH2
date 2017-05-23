@@ -2,385 +2,410 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@mipmap/dibeijing">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@mipmap/gerenzilaodaohanglan"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="个人中心"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+    android:background="@mipmap/dibeijing"
+    android:orientation="vertical">
 
-    </LinearLayout>
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:background="@mipmap/gerenzilaodaohanglan">
-        <TextView
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="90dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="榜哥哥"
-            android:textColor="#ffffff"
-            android:textSize="15sp"/>
-        <TextView
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="140dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="用户名："
-            android:textColor="#ffffff"
-            android:textSize="15sp"/>
-        <TextView
-            android:layout_marginLeft="200dp"
-            android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="15114554362"
-            android:textColor="#ffffff"
-            android:textSize="15sp"/>
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@mipmap/gerenzilaodaohanglan"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="个人中心"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="20dp"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="#000000"
-            />
-    </FrameLayout>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:background="@mipmap/dibeijing">
-        <ImageView
-
             android:layout_marginLeft="20dp"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:background="#000000"
-            />
+            android:layout_marginTop="45dp"
+            android:src="@mipmap/weidenglutupian" />
+
         <TextView
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="50dp"
+            android:text="肖榜"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="用户名："
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:text="15114554362"
+            android:textColor="#ffffff" />
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="男"
-            android:textColor="#000000"
-            android:textSize="15sp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="95dp"
+            android:textColor="#000000"/>
         <TextView
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="130dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="21岁"
-            android:textColor="#000000"
-            android:textSize="15sp"/>
+            android:text="27岁"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#000000"/>
         <TextView
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="180dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="黑龙江省"
-            android:textColor="#000000"
-            android:textSize="15sp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="190dp"
+            android:textColor="#000000"/>
         <TextView
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="250dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="哈尔滨市"
-            android:textColor="#000000"
-            android:textSize="15sp"/>
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="250dp"
+            android:textColor="#000000"/>
+
     </FrameLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <View
+                android:layout_marginTop="40dp"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
                 android:background="#636262"></View>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="#ffffff">
+                android:background="#ffffff"
+                android:orientation="vertical">
+
                 <LinearLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
+
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="我的积分:"/>
+                        android:text="我的积分:"
+                        android:textSize="15sp" />
+
                     <TextView
-                        android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="14.0"/>
+                        android:text="14.0"
+                        android:textSize="15sp" />
+
                     <TextView
-                        android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="积分"/>
+                        android:text="积分"
+                        android:textSize="15sp" />
                 </LinearLayout>
+
                 <View
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
-                    android:background="#636262"></View>
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="我的现金:"/>
-                    <TextView
-                        android:textSize="15sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="0.0"/>
-                    <TextView
-                        android:textSize="15sp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="元"/>
-                </LinearLayout>
-                <View
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:background="#636262"></View>
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="我的团队"/>
-                    <ImageView
-                        android:layout_marginRight="5dp"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
-                </LinearLayout>
-                <View
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:background="#636262"></View>
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="我的发布"/>
-                    <ImageView
-                        android:layout_marginRight="5dp"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
-                </LinearLayout>
-                <View
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
-                    android:background="#636262"></View>
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="25dp"
-                    android:orientation="horizontal">
-                    <TextView
-                        android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="已发红包"/>
-                    <ImageView
-                        android:layout_marginRight="5dp"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
-                </LinearLayout>
-                <View
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
                     android:background="#636262"></View>
 
                 <LinearLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
+
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="已收红包"/>
-                    <ImageView
-                        android:layout_marginRight="5dp"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
+                        android:text="我的现金:"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.0"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="元"
+                        android:textSize="15sp" />
                 </LinearLayout>
+
                 <View
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
                     android:background="#636262"></View>
+
                 <LinearLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
+
                     <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="20sp"
+                        android:layout_weight="1"
+                        android:text="我的团队"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#636262"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_weight="1"
+                        android:text="我的发布"
                         android:textSize="15sp"
+                        android:id="@+id/textView" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#636262"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_weight="1"
+                        android:text="已发红包"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#636262"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20sp"
+                        android:layout_weight="1"
+                        android:text="已收红包"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#636262"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="商家中心"/>
-                    <TextView
-                        android:textSize="13sp"
-                        android:gravity="right"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="wrap_content"
-                        android:hint="完善资料后，即可发布信息"/>
+                        android:layout_marginLeft="20sp"
+                        android:text="商家中心"
+                        android:textSize="15sp" />
+
                     <ImageView
-                        android:layout_marginRight="5dp"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
                 </LinearLayout>
+
                 <View
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
                     android:background="#636262"></View>
+
                 <LinearLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
+
                     <TextView
-                        android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="个人中心"/>
+                        android:layout_marginLeft="20sp"
+                        android:text="个人中心"
+                        android:textSize="15sp" />
+
                     <TextView
-                        android:textSize="13sp"
-                        android:gravity="right"
                         android:layout_width="0dp"
-                        android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:hint="完善资料后，即可参加抽奖活动"/>
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:hint="完善资料后，即可参加抽奖活动"
+                        android:textSize="13sp" />
+
                     <ImageView
-                        android:layout_marginRight="5dp"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
                 </LinearLayout>
+
                 <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="0.5dp"
                     android:background="#636262"></View>
+
                 <LinearLayout
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="25dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
+
                     <TextView
-                        android:layout_marginLeft="20sp"
-                        android:textSize="15sp"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
+                        android:layout_marginLeft="20sp"
                         android:layout_weight="1"
-                        android:text="我的团队"/>
+                        android:text="我的团队"
+                        android:textSize="15sp" />
+
                     <ImageView
-                        android:layout_marginRight="5dp"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@mipmap/more"/>
+                        android:layout_marginRight="5dp"
+                        android:src="@mipmap/more" />
                 </LinearLayout>
+
                 <View
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
                     android:background="#636262"></View>
             </LinearLayout>
+
             <View
-                android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
                 android:background="#636262"></View>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
+
                 <TextView
-                    android:layout_marginLeft="20sp"
-                    android:textSize="15sp"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_marginLeft="20sp"
                     android:layout_weight="1"
-                    android:text="设置"/>
+                    android:text="设置"
+                    android:textSize="15sp" />
+
                 <ImageView
-                    android:layout_marginRight="5dp"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@mipmap/more"/>
+                    android:layout_marginRight="5dp"
+                    android:src="@mipmap/more" />
             </LinearLayout>
+
             <View
-                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
                 android:background="#636262"></View>
         </LinearLayout>
     </ScrollView>
